@@ -16,7 +16,6 @@ for i in range(100):
         "phone":fake.phone_number(),
         "address":fake.address(),
         "verdict":fake.word(ext_word_list=["flu", "covid", "cold"])
-
     })
 
 with open("patient.json","w") as file:
